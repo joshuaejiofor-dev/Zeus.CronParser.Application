@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zeus.CronParser.Application", "Zeus.CronParser.Application\Zeus.CronParser.Application.csproj", "{3464B626-E3EE-4D9F-893B-9CFE296BAE10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EB936786-8723-4D55-A8FC-C3D03DC87D73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6D8C687B-75DF-414D-AD1A-C148911B22B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeus.CronParser.Application.Tests", "Zeus.CronParser.Application.Tests\Zeus.CronParser.Application.Tests.csproj", "{59B632E8-9E7C-434E-965C-8078A75E63C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3464B626-E3EE-4D9F-893B-9CFE296BAE10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3464B626-E3EE-4D9F-893B-9CFE296BAE10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3464B626-E3EE-4D9F-893B-9CFE296BAE10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3464B626-E3EE-4D9F-893B-9CFE296BAE10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59B632E8-9E7C-434E-965C-8078A75E63C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59B632E8-9E7C-434E-965C-8078A75E63C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59B632E8-9E7C-434E-965C-8078A75E63C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59B632E8-9E7C-434E-965C-8078A75E63C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3464B626-E3EE-4D9F-893B-9CFE296BAE10} = {EB936786-8723-4D55-A8FC-C3D03DC87D73}
+		{59B632E8-9E7C-434E-965C-8078A75E63C1} = {6D8C687B-75DF-414D-AD1A-C148911B22B4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51D18874-06A1-42AE-A90D-C34D37D0068A}
+	EndGlobalSection
+EndGlobal
